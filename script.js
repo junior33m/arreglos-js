@@ -17,3 +17,8 @@ function AgregarElemento(){
     }
 
 }
+
+function ResetElemento() {
+        elementos=[]
+        contenedor.innerHTML=""
+    }
