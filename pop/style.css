@@ -58,13 +58,10 @@ main{
    
  }
 
- button.popBtn:focus{
-    background-color: rgb(52, 198, 12);
- }
  
- .reset{
-    background-color: brown;
- }
+
+
+
 
  span {
     background-color: rgb(43, 39, 39);
@@ -72,3 +69,17 @@ main{
     padding: 10px;
     border-radius: 8px;
  }
+
+ #popBtn:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ #Shift:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ #resetBtn:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ 

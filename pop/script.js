@@ -1,5 +1,6 @@
 const popButton = document.getElementById("popBtn")
 const resetButton = document.getElementById("resetBtn")
+const Shift= document.getElementById("Shift")
 let elementos = ["kiwi" , "pera" , "guanabana" , "pomelo" , "piña" , "manzana" , "limon"]
 
 const contenedor = document.getElementById ("elementos")
@@ -16,6 +17,10 @@ function miFuncionDePop(){
  elementos.pop()
     actualizarHTML()
  }
+ function miFuncionDeShift(){
+    elementos.shift()
+    actualizarHTML()
+ }
 
  
 function miFuncionDeReseteo(){
@@ -25,5 +30,6 @@ function miFuncionDeReseteo(){
 
 actualizarHTML()
 
+Shift.addEventListener("click", miFuncionDeShift)
 popButton.addEventListener("click", miFuncionDePop)
 resetButton.addEventListener("click", miFuncionDeReseteo)
