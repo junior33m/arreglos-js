@@ -17,11 +17,15 @@ a{
     color: white;
     padding: 8px;
     border-radius: 6px;
-    cursor: pointer;
+    cursor: progress;
+    width: 100%;
     
-
+    justify-content: center;
+    text-align: center;
+    
     
 }
-a:focus{
-    background-color: rgb(85, 255, 0);
+a:hover{
+    background-color: rgba(245, 251, 242, 0.008);
+    border: 1px solid white;
 }

@@ -1,0 +1,85 @@
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(134, 147, 86);
+
+}
+h1{
+    font-size: 20px;
+}
+
+
+main{
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(16, 7, 5);
+    padding: 10px;
+    color: white;
+    
+}
+.content {
+    display: flex;
+    gap: 9px;
+    
+}
+
+ input{
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding: 3px;
+    /* font-size: 8px; */
+    border-radius: 8px;
+    background-color: rgb(193, 201, 208);
+   border: none;
+
+ }
+ button{
+
+    width: 100%;
+    height: 23px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 5px;
+    background-color: rgb(232, 216, 216);
+    
+ }
+ 
+ #elementos{
+    min-width: 400px;
+    background-color: rgba(253, 253, 252, 0.555);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px;
+    min-height: 200px;
+    gap: 10px;
+    color: black;
+   
+ }
+
+ 
+
+
+
+
+ span {
+    background-color: rgb(43, 39, 39);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+ }
+
+ #popBtn:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ #Shift:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ #resetBtn:hover{
+   background-color: rgb(41, 25, 25);
+   color: beige;
+ }
+ 
